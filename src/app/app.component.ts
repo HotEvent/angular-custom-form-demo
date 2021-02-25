@@ -2,9 +2,9 @@ import { Component, OnInit, VERSION } from "@angular/core";
 import { FormControl, Validators } from "@angular/forms";
 
 @Component({
-  selector: "my-app",
+  selector: "app-root",
   templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  styleUrls: ["./app.component.scss"]
 })
 export class AppComponent implements OnInit {
   ngOnInit(): void {
